@@ -1,5 +1,3 @@
-# cyran-data-portfolio
-A gender-neutral, dark-mode Data Analytics portfolio built with HTML, CSS, and Bootstrap. Features interactive project filtering, a searchable AI Usage Log, troubleshooting accordions, and a functional resume download.
 # Cyran Mae Secorata - Data Analytics Portfolio
 
 A fully responsive, single-page portfolio website built for **Cyran Mae Secorata**, a BSIT student specializing in Data Analytics. 
