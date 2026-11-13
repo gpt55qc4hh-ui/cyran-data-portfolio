@@ -44,8 +44,9 @@
   <section id="home" class="py-5 text-center">
     <div class="container">
       <div class="glass-card d-inline-block p-4 p-md-5">
-        <img src="https://i.postimg.cc/https://i.postimg.cc/kXHq4zvB/9E1CA6B6-6133-4EF8-A710-66419E3EBAA6.png" alt="Cyran Mae Secorata" class="avatar-img" onerror="...">
-          <img src="assets/profile.jpg" alt="Cyran Mae Secorata" class="avatar-img" onerror="this.src='https://via.placeholder.com/180/00D4AA/0A1628?text=CS'">
+        <div class="avatar-wrapper mx-auto mb-4">
+          <!-- FIXED IMAGE LINK -->
+          <img src="https://i.postimg.cc/kXHq4zvB/9E1CA6B6-6133-4EF8-A710-66419E3EBAA6.png" alt="Cyran Mae Secorata" class="avatar-img" onerror="this.src='https://via.placeholder.com/180/00D4AA/0A1628?text=CS'">
           <div class="ring-1"></div>
           <div class="ring-2"></div>
         </div>
@@ -62,8 +63,9 @@
           <a href="#projects" class="btn btn-outline-info me-2">
             <i class="fa-solid fa-folder-open me-1"></i> View Projects
           </a>
-          <a href="assets/resume.pdf" download class="btn btn-outline-success">
-            <a href="https://drive.google.com/https://drive.google.com/file/d/15ntelmjoyRttCfK3KTNjPyG_7gvJ-DAI/view?usp=drivesdk" target="_blank" class="btn btn-outline-success">
+          <!-- FIXED RESUME LINK -->
+          <a href="https://drive.google.com/file/d/15ntelmjoyRttCfK3KTNjPyG_7gvJ-DAI/view?usp=drivesdk" target="_blank" class="btn btn-outline-success">
+            <i class="fa-solid fa-download me-1"></i> Download Resume
           </a>
         </div>
       </div>
@@ -88,7 +90,7 @@
             <p><i class="fa-solid fa-graduation-cap accent-blue me-2"></i><strong>Year:</strong> BSIT 4th Year</p>
           </div>
           <div class="col-md-6">
-            <p><i class="fa-solid fa-location-dot accent-blue me-2"></i><strong>Location:</strong> Parañaque City</p>
+            <p><i class="fa-solid fa-location-dot accent-blue me-2"></i><strong>Location:</strong> Las Piñas City</p>
             <p><i class="fa-solid fa-briefcase accent-blue me-2"></i><strong>Focus:</strong> Data Analytics & IT Support</p>
           </div>
         </div>
@@ -206,7 +208,7 @@
 
       <div class="row" id="projectGrid">
         
-        <!-- Project 1 (Original) -->
+        <!-- Project 1 -->
         <div class="col-md-6 mb-4 project-card" data-category="data">
           <div class="glass-card h-100 featured-project">
             <span class="badge badge-featured mb-2">FEATURED</span>
@@ -222,7 +224,7 @@
           </div>
         </div>
         
-        <!-- Project 2 (Original) -->
+        <!-- Project 2 -->
         <div class="col-md-6 mb-4 project-card" data-category="webapp">
           <div class="glass-card h-100">
             <h5 class="neon-text">AI-Assisted IT Help Desk System</h5>
@@ -237,7 +239,7 @@
           </div>
         </div>
         
-        <!-- Project 3 (Original) -->
+        <!-- Project 3 -->
         <div class="col-md-6 mb-4 project-card" data-category="special">
           <div class="glass-card h-100">
             <h5 class="neon-text">Network Topology & Vulnerability Lab</h5>
@@ -250,7 +252,7 @@
           </div>
         </div>
         
-        <!-- Project 4 (Original) -->
+        <!-- Project 4 -->
         <div class="col-md-6 mb-4 project-card" data-category="data">
           <div class="glass-card h-100">
             <h5 class="neon-text">Student Performance Data Analysis</h5>
@@ -264,7 +266,7 @@
           </div>
         </div>
 
-        <!-- Project 5 (Mock) -->
+        <!-- Project 5 -->
         <div class="col-md-6 mb-4 project-card" data-category="data">
           <div class="glass-card h-100">
             <h5 class="neon-text">E-Commerce Sales & Customer Segmentation</h5>
@@ -278,7 +280,7 @@
           </div>
         </div>
         
-        <!-- Project 6 (Mock) -->
+        <!-- Project 6 -->
         <div class="col-md-6 mb-4 project-card" data-category="webapp">
           <div class="glass-card h-100">
             <h5 class="neon-text">Inventory Management System (POS)</h5>
@@ -292,7 +294,7 @@
           </div>
         </div>
         
-        <!-- Project 7 (Mock) -->
+        <!-- Project 7 -->
         <div class="col-md-6 mb-4 project-card" data-category="special">
           <div class="glass-card h-100">
             <h5 class="neon-text">Active Directory & User Provisioning Lab</h5>
@@ -305,7 +307,7 @@
           </div>
         </div>
 
-        <!-- NEW Project 8 (Mock) -->
+        <!-- Project 8 -->
         <div class="col-md-6 mb-4 project-card" data-category="data">
           <div class="glass-card h-100">
             <h5 class="neon-text">COVID-19 Global Vaccination Tracker</h5>
@@ -319,7 +321,7 @@
           </div>
         </div>
 
-        <!-- NEW Project 9 (Mock) -->
+        <!-- Project 9 -->
         <div class="col-md-6 mb-4 project-card" data-category="webapp">
           <div class="glass-card h-100">
             <h5 class="neon-text">School Library Management System</h5>
@@ -333,7 +335,7 @@
           </div>
         </div>
 
-        <!-- NEW Project 10 (Mock) -->
+        <!-- Project 10 -->
         <div class="col-md-6 mb-4 project-card" data-category="special">
           <div class="glass-card h-100">
             <h5 class="neon-text">Home Cybersecurity Lab & Pen-Testing</h5>
@@ -352,7 +354,6 @@
   </section>
 
   <!-- MODALS -->
-  <!-- Original Modals -->
   <div class="modal fade" id="proj1Modal" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content glass-card modal-dark">
@@ -410,8 +411,6 @@
       </div>
     </div>
   </div>
-
-  <!-- Mock Modals 5-7 -->
   <div class="modal fade" id="proj5Modal" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content glass-card modal-dark">
@@ -456,8 +455,6 @@
       </div>
     </div>
   </div>
-
-  <!-- NEW Modals 8-10 -->
   <div class="modal fade" id="proj8Modal" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content glass-card modal-dark">
@@ -482,13 +479,8 @@
         </div>
         <div class="modal-body">
           <p><strong>Overview:</strong> A web-based system designed for school librarians to manage book inventories and student borrowing records.</p>
-          <p><strong>Key Features:</strong></p>
-          <ul>
-            <li>Searchable book catalog by title, author, or ISBN.</li>
-            <li>Automated fine calculation for overdue books.</li>
-            <li>Student database integration to track borrowing history.</li>
-          </ul>
-          <p><strong>Tech Stack:</strong> PHP, MySQL (Relational Database), Bootstrap 5 for responsive UI.</p>
+          <p><strong>Key Features:</strong> Searchable book catalog, Automated fine calculation, Student database integration.</p>
+          <p><strong>Tech Stack:</strong> PHP, MySQL, Bootstrap 5.</p>
         </div>
       </div>
     </div>
